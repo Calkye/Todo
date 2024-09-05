@@ -1,0 +1,39 @@
+$ellipse-width: 40vw; 
+$ellipse-height: 40vh; 
+
+body{
+  background-color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  
+  .background{
+    z-index: -5px;
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    flex-grow: 1;
+    display: flex; 
+    flex-direction: column;
+    gap: 5rem; 
+    justify-content: space-between;
+    align-items: flex-start;
+
+
+    .Ellipse1{
+      width: $ellipse-width; 
+      height: $ellipse-height; 
+      background-color: #A510E0;
+      border-radius: 50%;
+      filter: blur(500px);
+    }
+    .Ellipse2{
+      width: $ellipse-width; 
+      height: $ellipse-height; 
+      border-radius: 50%;
+      filter: blur(500px);
+      background-color: #9400CE;
+      align-self: flex-end;
+
+    }
+  }
+ 
+}

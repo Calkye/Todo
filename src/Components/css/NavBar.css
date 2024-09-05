@@ -1,0 +1,35 @@
+.Nav-Bar-Container {
+  width: 100vw;
+  height: 10vh;
+  min-height: 80px;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  margin: 0;
+  justify-content: center;
+}
+.Nav-Bar-Container .NavBar {
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  z-index: 35;
+  background-color: #F2E2F8;
+  padding: 1rem 2rem;
+  width: 80vw;
+}
+.Nav-Bar-Container .NavBar ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  list-style: none;
+  font-size: 36px;
+  color: #A511E0;
+}
+.Nav-Bar-Container .NavBar ul li {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #A511E0;
+  color: #3D0055;
+  padding: 1rem 2rem;
+  border-radius: 15px;
+}/*# sourceMappingURL=NavBar.css.map */

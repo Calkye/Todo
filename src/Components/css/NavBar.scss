@@ -1,0 +1,46 @@
+$primary-color: #F2E2F8;
+$secondary-color: #A511E0;
+$Accent-color: #3D0055; 
+$Some-Color: #A510E0;
+$NavBar-Text-Size: 36px; 
+
+
+.Nav-Bar-Container{
+  width: 100vw; 
+  height: 10vh; 
+  min-height: 80px;
+  display: flex; 
+  align-items: center;
+  box-sizing: border-box;
+  margin: 0;
+  justify-content: center;
+
+  .NavBar{
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    z-index: 35;
+    background-color: $primary-color;
+    padding: 1rem 2rem;
+    width: 80vw;
+    ul{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 2rem;
+      list-style: none;
+      font-size: $NavBar-Text-Size;
+      color: $secondary-color;
+      li{
+        display: flex; 
+        flex-wrap: wrap;
+        background-color: $secondary-color;
+        color: $Accent-color;
+        padding: 1rem 2rem;
+        border-radius: 15px;
+
+
+      }
+    
+    }
+  }
+}
